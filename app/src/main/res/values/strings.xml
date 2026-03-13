@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">TaskSync</string>
+    
+    <!-- Login Activity -->
+    <string name="login_title">Bem-vindo</string>
+    <string name="login_subtitle">Faça login para continuar</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Senha</string>
+    <string name="login_button">Entrar</string>
+    <string name="register_link">Não tem uma conta? Registre-se</string>
+    <string name="google_login">Entrar com Google</string>
+    
+    <!-- Register Activity -->
+    <string name="register_title">Criar Conta</string>
+    <string name="register_subtitle">Preencha os dados para registrar</string>
+    <string name="name_hint">Nome completo</string>
+    <string name="confirm_password_hint">Confirmar senha</string>
+    <string name="register_button">Registrar</string>
+    <string name="login_link">Já tem uma conta? Faça login</string>
+    
+    <!-- Home Activity -->
+    <string name="home_title">Minhas Tarefas</string>
+    <string name="add_task_button">Adicionar Tarefa</string>
+    <string name="logout_button">Sair</string>
+    <string name="empty_tasks">Nenhuma tarefa encontrada</string>
+    
+    <!-- Task Activity -->
+    <string name="add_task_title">Nova Tarefa</string>
+    <string name="edit_task_title">Editar Tarefa</string>
+    <string name="task_title_hint">Título da tarefa</string>
+    <string name="task_description_hint">Descrição</string>
+    <string name="task_date_hint">Data</string>
+    <string name="task_time_hint">Hora</string>
+    <string name="save_task_button">Salvar</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="delete_button">Excluir</string>
+    
+    <!-- Messages -->
+    <string name="error_empty_fields">Preencha todos os campos</string>
+    <string name="error_invalid_email">E-mail inválido</string>
+    <string name="error_password_mismatch">As senhas não coincidem</string>
+    <string name="error_login_failed">Falha no login</string>
+    <string name="error_register_failed">Falha no registro</string>
+    <string name="success_login">Login realizado com sucesso</string>
+    <string name="success_register">Conta criada com sucesso</string>
+    <string name="success_task_saved">Tarefa salva com sucesso</string>
+    <string name="success_task_deleted">Tarefa excluída com sucesso</string>
+    
+    <!-- Menu -->
+    <string name="menu_edit">Editar</string>
+    <string name="menu_delete">Excluir</string>
+    
+    <!-- Firebase Google Sign-In Configuration -->
+    <string name="default_web_client_id" translatable="false">523512148629-8f1nq7tpllk7h9531v4lp93217pgl27b.apps.googleusercontent.com</string>
+</resources>

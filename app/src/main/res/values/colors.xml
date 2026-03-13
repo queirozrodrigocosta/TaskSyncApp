@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_blue">#1976D2</color>
+    <color name="primary_blue_dark">#1565C0</color>
+    <color name="primary_blue_light">#42A5F5</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary_orange">#FF9800</color>
+    <color name="secondary_orange_dark">#F57C00</color>
+    <color name="secondary_orange_light">#FFB74D</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#F5F5F5</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="error_red">#F44336</color>
+    <color name="warning_yellow">#FFC107</color>
+    
+    <!-- Divider -->
+    <color name="divider">#E0E0E0</color>
+    
+    <!-- Card and Button Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="button_primary">#1976D2</color>
+    <color name="button_secondary">#757575</color>
+    
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+</resources>

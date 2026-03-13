@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Sample backup rules file; uncomment and customize as necessary.
+   See https://developer.android.com/guide/topics/data/autobackup
+   for details.
+   Note: This file is ignored for devices older that API 23, even if they have
+   auto-backup available.
+-->
+<full-backup-content>
+    <!--
+   <include domain="sharedpref" path="."/>
+   <exclude domain="sharedpref" path="device.xml"/>
+-->
+    <!-- Incluir dados do usuário e configurações -->
+    <include domain="sharedpref" path="TaskSyncPrefs.xml" />
+    <include domain="database" path="tasksync.db" />
+    
+    <!-- Excluir dados sensíveis -->
+    <exclude domain="sharedpref" path="firebase_token" />
+</full-backup-content>
